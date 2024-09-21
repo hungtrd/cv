@@ -1,0 +1,4 @@
+baseURL = 'https://hung.cyou/'
+languageCode = 'en-us'
+title = "Hung Tran Duy 's resume"
+theme = 'devresume'
