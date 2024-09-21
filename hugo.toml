@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://huzg.me/cv/"
+baseURL = "https://huzg.me/cv/"
 languageCode = "en"
 title = ""
 theme = "devresume"
