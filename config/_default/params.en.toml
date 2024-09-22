@@ -1,8 +1,9 @@
 
-author = "CowboySmall"
-description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+author = "HungTran"
+description = "Hung Tran Duy 's resume"
 
-primaryColor = "#54B689"
+# primaryColor = "#4c566a"
+primaryColor = "#5e81ac"
 textPrimaryColor = "#292929"
 
 [profile]

@@ -7,3 +7,8 @@ theme = "devresume"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 # disableLanguages = ['vi', 'fr']
+
+[caches]
+  [caches.assets]
+    dir = ':resourceDir/_gen'
+    maxAge = -1
