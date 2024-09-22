@@ -6,3 +6,4 @@ title = "Hung Tran Duy 's resume"
 theme = "devresume"
 googleAnalytics = "UA-XXXXXXX-Y"
 
+# disableLanguages = ['vi', 'fr']
