@@ -1,33 +1,35 @@
+author = "HungTran"
+description = "Hung Tran Duy's resume"
 
-author = "CowboySmall"
-description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
-
-# primaryColor = "#54B689"
 primaryColor = "#8fbcbb"
 textPrimaryColor = "#292929"
+
+[floatingbutton]
+    enable = true
+    downloadButton = true
 
 [profile]
     enable = true
     name = "Trần Duy Hưng"
-    tagline = "Senior Software Engineer"
+    tagline = "Backend Software Engineer"
     avatar = "avatar.png"
 
 [contact]
     enable = true
-    location = "New York"
+    location = "Hà Nội, Việt Nam"
 
     [[contact.list]]
     icon = "fas fa-phone-square"
     url = "tel:#"
-    text = "0123 4567 890"
+    text = "0985 119 197"
     [[contact.list]]
     icon = "fas fa-envelope-square"
     url = "mailto:#"
-    text = "simon.doe@yourwebsite.com"
+    text = "hungtrd.dev@gmail.com"
     [[contact.list]]
     icon = "fas fa-globe"
     url = "#"
-    text = "www.yourwebsite.com"
+    text = "hung.cafe"
 
 [skills]
     enable = true

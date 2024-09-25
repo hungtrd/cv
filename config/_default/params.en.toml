@@ -1,33 +1,35 @@
-
 author = "HungTran"
-description = "Hung Tran Duy 's resume"
+description = "Hung Tran Duy's resume"
 
-# primaryColor = "#4c566a"
 primaryColor = "#5e81ac"
 textPrimaryColor = "#292929"
 
+[floatingbutton]
+    enable = true
+    downloadButton = true
+
 [profile]
     enable = true
-    name = "Simon Doe"
-    tagline = "Senior Software Engineer"
+    name = "Hung Tran Duy"
+    tagline = "Backend Software Engineer"
     avatar = "avatar.png"
 
 [contact]
     enable = true
-    location = "New York"
+    location = "Hanoi, Vietnam"
 
     [[contact.list]]
     icon = "fas fa-phone-square"
     url = "tel:#"
-    text = "0123 4567 890"
+    text = "+84 985 119 197"
     [[contact.list]]
     icon = "fas fa-envelope-square"
     url = "mailto:#"
-    text = "simon.doe@yourwebsite.com"
+    text = "hungtrd.dev@gmail.com"
     [[contact.list]]
     icon = "fas fa-globe"
     url = "#"
-    text = "www.yourwebsite.com"
+    text = "hung.cafe"
 
 [skills]
     enable = true
