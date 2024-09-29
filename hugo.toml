@@ -2,7 +2,7 @@
 
 baseURL = "https://huzg.me/"
 languageCode = "en-us"
-title = "Hung Tran Duy 's resume"
+title = "Hung Tran Duy's resume"
 theme = "devresume"
 googleAnalytics = "UA-XXXXXXX-Y"
 
