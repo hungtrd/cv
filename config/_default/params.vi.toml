@@ -12,11 +12,10 @@ textPrimaryColor = "#292929"
     enable = true
     name = "Trần Duy Hưng"
     tagline = "Backend Software Engineer"
-    avatar = "avatar.png"
+    avatar = "avatar2.jpeg"
 
 [contact]
     enable = true
-    location = "Hà Nội, Việt Nam"
 
     [[contact.list]]
     icon = "fas fa-phone-square"
@@ -28,8 +27,12 @@ textPrimaryColor = "#292929"
     text = "hungtrd.dev@gmail.com"
     [[contact.list]]
     icon = "fas fa-globe"
-    url = "#"
+    url = "https://hung.cafe"
     text = "hung.cafe"
+    [[contact.list]]
+    icon = "fas fa-map-marker-alt"
+    url = "https://maps.app.goo.gl/r7uk47Hzc8Fojytj6"
+    text = "Hà Nội, Việt Nam"
 
 [skills]
     enable = true
@@ -66,13 +69,13 @@ textPrimaryColor = "#292929"
     enable = true
 
     [[education.list]]
-    degree = "MSc in Computer Science"
-    university = "University College London"
-    dates = "2010 - 2011"
+    degree = "Công nghệ phần mềm"
+    university = "Học viện Công nghệ Bưu chính Viễn thông Hà Nội - PTIT"
+    dates = ""
     [[education.list]]
-    degree = "BSc Maths and Physics"
-    university = "Imperial College London"
-    dates = "2007 - 2010"
+    degree = "Chuyên Tin"
+    university = "Trường Trung học phổ thông chuyên Thái Bình"
+    dates = ""
 
 [awards]
     enable = true
@@ -90,11 +93,11 @@ textPrimaryColor = "#292929"
     enable = true
 
     [[languages.list]]
-    name = "English"
-    level = "Native"
+    name = "Tiếng Việt"
+    level = "Tiếng bản xứ"
     [[languages.list]]
-    name = "Spanish"
-    level = "Professional"
+    name = "Tiếng Anh"
+    level = "TOEIC 600+"
 
 [interests]
     enable = true
@@ -110,7 +113,7 @@ textPrimaryColor = "#292929"
 
 [summary]
     enable = true
-    text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+    text = "Là người có niềm yêu thích với công nghệ, mong muốn trải nghiệm những sản phẩm công nghệ mới. Từ đó tôi luôn mong muốn tạo ra những sản phẩm tốt cho người dùng. Với khả năng học tập nhanh và tư duy tốt, tôi muốn được học hỏi thêm từ những người đi trước giàu kinh nghiệm, giúp cải thiện bản thân từ đó nâng cao kỹ năng chuyên môn back-end và đóng góp giúp công ty phát triển hơn."
 
 [experience]
     enable = true
@@ -198,14 +201,18 @@ textPrimaryColor = "#292929"
 
     [[social.list]]
     icon = "fab fa-github-square"
-    url = "//github.com/username"
-    title = "username"
+    url = "https://github.com/hungtrd"
+    title = "hungtrd"
     [[social.list]]
     icon = "fab fa-linkedin"
     url = "//linkedin.com/in/username"
     title = "username"
     [[social.list]]
-    icon = "fab fa-twitter-square"
-    url = "//twitter.com/username"
-    title = "@username"
+    icon = "fab fa-facebook-square"
+    url = "https://www.facebook.com/hungtrd/"
+    title = "hungtrd"
+    # [[social.list]]
+    # icon = "fab fa-twitter-square"
+    # url = "https//twitter.com/username"
+    # title = "@username"
 
