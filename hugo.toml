@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://huzg.me/"
+baseURL = "https://hungtd.me/"
 languageCode = "en-us"
 title = "Hung Tran Duy's resume"
 theme = "devresume"
