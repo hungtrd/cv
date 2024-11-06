@@ -12,7 +12,7 @@ textPrimaryColor = "#292929"
     enable = true
     name = "Trần Duy Hưng"
     tagline = "Backend Software Engineer"
-    avatar = "avatar2.jpeg"
+    avatar = "avatar1.jpeg"
 
 [contact]
     enable = true
