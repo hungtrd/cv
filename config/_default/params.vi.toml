@@ -103,13 +103,11 @@ textPrimaryColor = "#292929"
     enable = true
 
     [[interests.list]]
-    name = "Climbing"
+    name = "Linux Ricing"
     [[interests.list]]
-    name = "Snowboarding"
+    name = "Bàn phím cơ"
     [[interests.list]]
-    name = "Photography"
-    [[interests.list]]
-    name = "Travelling"
+    name = "Games"
 
 [summary]
     enable = true

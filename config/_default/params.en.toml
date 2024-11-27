@@ -38,19 +38,46 @@ textPrimaryColor = "#292929"
     enable = true
 
     [[skills.list]]
-    title = "Technical"
+    title = "Backend"
     [[skills.list.items]]
-    details = "JavaScript/Angular/React/Vue"
+    details = "Golang/Javascript/Ruby/PHP"
     [[skills.list.items]]
-    details = "Python/Ruby/PHP"
+    details = "Gin/Echo/Entgo/Gorm"
     [[skills.list.items]]
-    details = "Node.js/ASP.NET"
+    details = "NodeJS/Ruby on Rails/Laravel"
+
+    [[skills.list]]
+    title = "Database"
     [[skills.list.items]]
     details = "PostgreSQL/MySQL"
     [[skills.list.items]]
-    details = "Object-oriented design"
+    details = "MongoDB/Redis/Elasticsearch"
+
+    [[skills.list]]
+    title = "Frontend"
     [[skills.list.items]]
-    details = "Design and implement database structures"
+    details = "HTML/CSS/Bootstrap/Tailwind"
+    [[skills.list.items]]
+    details = "ReactJS/NextJS"
+
+    [[skills.list]]
+    title = "DevOps"
+    [[skills.list.items]]
+    details = "Docker / Nginx"
+    [[skills.list.items]]
+    details = "Jenkins/Github Action/Gitlab CI"
+    [[skills.list.items]]
+    details = "AWS/On-premise"
+
+
+    [[skills.list]]
+    title = "Other relevant skills"
+    [[skills.list.items]]
+    details = "Git"
+    [[skills.list.items]]
+    details = "friendly with Linux/Unix for development and production"
+    [[skills.list.items]]
+    details = "Vim/Vscode for development"
     [[skills.list.items]]
     details = "Lead and deliver complex software systems"
 
@@ -103,13 +130,11 @@ textPrimaryColor = "#292929"
     enable = true
 
     [[interests.list]]
-    name = "Climbing"
+    name = "Linux Ricing"
     [[interests.list]]
-    name = "Snowboarding"
+    name = "Mechanical Keyboard"
     [[interests.list]]
-    name = "Photography"
-    [[interests.list]]
-    name = "Travelling"
+    name = "Games"
 
 [summary]
     enable = true
