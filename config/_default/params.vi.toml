@@ -38,32 +38,72 @@ textPrimaryColor = "#292929"
     enable = true
 
     [[skills.list]]
-    title = "Technical"
+    title = "Backend"
     [[skills.list.items]]
-    details = "JavaScript/Angular/React/Vue"
+    details = "Golang - Xây dựng API với kiến trúc Microservices"
     [[skills.list.items]]
-    details = "Python/Ruby/PHP"
+    details = "PHP Laravel - Phát triển hệ thống quản lý"
     [[skills.list.items]]
-    details = "Node.js/ASP.NET"
+    details = "Ruby on Rails - Xây dựng CMS và API"
     [[skills.list.items]]
-    details = "PostgreSQL/MySQL"
+    details = "NodeJS - Kiểm thử tự động API"
     [[skills.list.items]]
-    details = "Object-oriented design"
-    [[skills.list.items]]
-    details = "Design and implement database structures"
-    [[skills.list.items]]
-    details = "Lead and deliver complex software systems"
+    details = "Frameworks: Gin, Echo, Entgo, Gorm"
 
     [[skills.list]]
-    title = "Professional"
+    title = "Cơ sở dữ liệu"
     [[skills.list.items]]
-    details = "Effective communication"
+    details = "MySQL/PostgreSQL - Thiết kế và triển khai"
     [[skills.list.items]]
-    details = "Team player"
+    details = "MongoDB - Kinh nghiệm NoSQL"
     [[skills.list.items]]
-    details = "Strong problem solver"
+    details = "Redis - Giải pháp caching"
     [[skills.list.items]]
-    details = "Good time management"
+    details = "Elasticsearch - Tích hợp công cụ tìm kiếm"
+    [[skills.list.items]]
+    details = "Thiết kế cơ sở dữ liệu theo yêu cầu nghiệp vụ"
+
+    [[skills.list]]
+    title = "Frontend"
+    [[skills.list.items]]
+    details = "HTML/CSS/Javascript - Phát triển giao diện"
+    [[skills.list.items]]
+    details = "Bootstrap/jQuery - Thư viện UI"
+    [[skills.list.items]]
+    details = "ReactJS - Kiến thức về frontend framework"
+
+    [[skills.list]]
+    title = "DevOps"
+    [[skills.list.items]]
+    details = "Docker/Nginx - Container hóa và web server"
+    [[skills.list.items]]
+    details = "CI/CD: Github Actions, Jenkins, Gitlab CI"
+    [[skills.list.items]]
+    details = "AWS/GCP/Hệ thống On-premise"
+    [[skills.list.items]]
+    details = "Linux/Unix - Môi trường phát triển và production"
+
+    [[skills.list]]
+    title = "Kỹ năng liên quan khác"
+    [[skills.list.items]]
+    details = "Git - Quản lý mã nguồn"
+    [[skills.list.items]]
+    details = "Vim/VScode - Công cụ phát triển"
+    [[skills.list.items]]
+    details = "Khả năng nghiên cứu tài liệu tiếng Anh"
+    [[skills.list.items]]
+    details = "Lãnh đạo và triển khai hệ thống phần mềm phức tạp"
+
+    [[skills.list]]
+    title = "Kỹ năng chuyên môn"
+    [[skills.list.items]]
+    details = "Giao tiếp hiệu quả"
+    [[skills.list.items]]
+    details = "Làm việc nhóm tốt"
+    [[skills.list.items]]
+    details = "Giải quyết vấn đề tốt"
+    [[skills.list.items]]
+    details = "Quản lý thời gian tốt"
 
 [education]
     enable = true
@@ -81,13 +121,17 @@ textPrimaryColor = "#292929"
     enable = true
 
     [[awards.list]]
-    name = "Award Lorem Ipsum"
-    body = "Microsoft lorem ipsum"
-    date = "2019"
+    name = "Kỳ thi chọn học sinh giỏi cấp tỉnh"
+    body = "Đạt giải trong kỳ thi chọn học sinh giỏi tỉnh môn Tin học"
+    date = "2013"
     [[awards.list]]
-    name = "Award Donec Sodales"
-    body = "Oracle Aenean"
-    date = "2017"
+    name = "Kỳ thi chọn học sinh giỏi vùng Đồng bằng Bắc Bộ"
+    body = "Đạt giải Tin học trong kỳ thi chọn học sinh giỏi các trường THPT chuyên vùng Đồng bằng Bắc Bộ và duyên hải"
+    date = "2014"
+    [[awards.list]]
+    name = "Kỳ thi chọn học sinh giỏi Quốc gia"
+    body = "Tham dự kỳ thi chọn học sinh giỏi Quốc gia môn Tin học"
+    date = "2013"
 
 [languages]
     enable = true
@@ -117,82 +161,97 @@ textPrimaryColor = "#292929"
     enable = true
 
     [[experience.list]]
-    title = "Senior Software Engineer"
-    dates = "2019 - Present"
-    company = "Google"
-    details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+    title = "Backend Developer"
+    dates = "04/2024 - Hiện tại"
+    company = "Viettel Cyber Security"
+    details = "Xây dựng Hệ thống Quản lý Phát hiện Lỗ hổng và Cảnh báo Tấn công Mạng cho các hoạt động an ninh mạng quy mô lớn."
     [[experience.list.items]]
-    details = "Lorem ipsum dolor sit amet, consectetuer."
+    details = "Tham gia phân tích và thiết kế các tính năng bảo mật"
     [[experience.list.items]]
-    details = "Aenean commodo ligula eget dolor."
+    details = "Điều tra và giải quyết lỗi trong môi trường production"
     [[experience.list.items]]
-    details = "Etiam ultricies nisi vel augue."
+    details = "Phát triển module sử dụng Golang, gRPC, MongoDB, Redis và ElasticSearch"
+    [[experience.list.items]]
+    details = "Viết unit test để đảm bảo chất lượng code"
 
     [[experience.list]]
-    title = "Lead Software Developer"
-    dates = "2016 - 2019"
-    company = "Apple"
-    details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+    title = "Backend Team Leader"
+    dates = "07/2021 - 04/2024"
+    company = "HBLAB JSC Company"
+    details = "Quản lý team phát triển backend, tập trung vào hệ thống ví điện tử và giải pháp quản lý màn hình quảng cáo."
     [[experience.list.items]]
-    details = "Lorem ipsum dolor sit amet, consectetuer."
+    details = "Quản lý và hỗ trợ thành viên trong team hoàn thành nhiệm vụ"
     [[experience.list.items]]
-    details = "Aenean commodo ligula eget dolor."
-
-    [[experience.list]]
-    title = "Senior Software Developer"
-    dates = "2014 - 2016"
-    company = "Dropbox"
-    details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-    [[experience.list]]
-    title = "Senior Developer"
-    dates = "2013 - 2014"
-    company = "Uber"
-    details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+    details = "Định nghĩa coding rules, review code và nghiên cứu công nghệ mới"
+    [[experience.list.items]]
+    details = "Thiết kế và phát triển microservices sử dụng Golang, Entgo và PostgreSQL"
+    [[experience.list.items]]
+    details = "Triển khai identity service và phát triển API"
 
     [[experience.list]]
     title = "Backend Developer"
-    dates = "2014 - 2016"
-    company = "Amazon"
-    details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    dates = "02/2020 - 06/2021"
+    company = "OWS Vietnam JSC Company"
+    details = "Phát triển API cho ứng dụng mobile và CMS cho nền tảng thể dục sử dụng kiến trúc microservices."
+    [[experience.list.items]]
+    details = "Phân tích và thiết kế RESTful API cho ứng dụng mobile"
+    [[experience.list.items]]
+    details = "Xây dựng CMS sử dụng Laravel (PHP) và MySQL"
+    [[experience.list.items]]
+    details = "Viết automation test sử dụng NodeJS"
 
     [[experience.list]]
-    title = "Frontend Developer"
-    dates = "2013 - 2014"
-    company = "Startup"
-    details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+    title = "Web Developer"
+    dates = "03/2017 - 08/2018"
+    company = "UPLUS Solution & Technologies Company"
+    details = "Phát triển nền tảng chuỗi cung ứng thương mại điện tử dựa trên mô hình kinh doanh dropshipping."
+    [[experience.list.items]]
+    details = "Tham gia phân tích nghiệp vụ và thiết kế hệ thống"
+    [[experience.list.items]]
+    details = "Phát triển module sử dụng Ruby on Rails và PostgreSQL"
+    [[experience.list.items]]
+    details = "Xây dựng giao diện frontend với HTML, CSS, Javascript và jQuery"
 
 [projects]
     enable = true
 
     [[projects.list]]
-    title = "Project Lorem Ipsum"
-    meta = "Open Source"
-    tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    title = "Hệ thống Phát hiện Lỗ hổng & Cảnh báo Tấn công Mạng"
+    meta = "04/2024 - Hiện tại | Viettel Cyber Security"
+    tagline = "Xây dựng hệ thống Quản lý Phát hiện Lỗ hổng và Cảnh báo Tấn công Mạng toàn diện. Công nghệ: Golang, gRPC, Redis, ElasticSearch, MongoDB, Jenkins, K8s."
 
     [[projects.list]]
-    title = "Project Sed Fringilla"
-    meta = "Open Source"
-    tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+    title = "Game 2D Pixel Art cho Mobile (Side Project)"
+    meta = "11/2024 - Hiện tại | Cá nhân"
+    tagline = "Xây dựng hệ thống backend cho game mobile với team 3 người. Chịu trách nhiệm thiết kế tính năng, phát triển, thiết lập Nginx, CI/CD trên AWS và load testing. Công nghệ: Golang, Nakama framework, PostgreSQL."
 
     [[projects.list]]
-    title = "Project Praesent"
-    meta = "Open Source"
-    tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+    title = "Hệ thống Quản lý Màn hình Quảng cáo"
+    meta = "09/2022 - 04/2024 | Retail AI"
+    tagline = "Quản lý team 4 người xây dựng hệ thống quản lý màn hình quảng cáo cho siêu thị. Quản lý team, định nghĩa coding standards và phát triển module. Công nghệ: Golang, gRPC, Entgo, GCP, PostgreSQL."
+
+    [[projects.list]]
+    title = "Dịch vụ Identity cho Ví điện tử"
+    meta = "07/2021 - 08/2022 | Retail AI"
+    tagline = "Xây dựng identity service cho ứng dụng ví điện tử trong team 20 người. Tham gia thiết kế API, phát triển module và unit testing. Công nghệ: Golang, Gin-gonic, Entgo, PostgreSQL."
+
+    [[projects.list]]
+    title = "API Sixpad Home Gym"
+    meta = "10/2020 - 06/2021 | MTG"
+    tagline = "Phát triển API dựa trên microservices cho ứng dụng mobile thể dục kết nối giữa huấn luyện viên và học viên. Thiết kế API, viết automation test bằng NodeJS. Công nghệ: Golang, NodeJS, MySQL."
+
+    [[projects.list]]
+    title = "CMS Sixpad Home Gym"
+    meta = "02/2020 - 09/2020 | MTG"
+    tagline = "Xây dựng hệ thống quản lý nội dung cho nền tảng tập luyện tại nhà, quản lý khóa học, bài học, huấn luyện viên và sự kiện với tính năng livestreaming. Công nghệ: Laravel (PHP), MySQL."
+
+    [[projects.list]]
+    title = "Upinus Supply Chain"
+    meta = "03/2017 - 08/2018 | UPLUS"
+    tagline = "Phát triển công cụ nền tảng thương mại điện tử cho mô hình kinh doanh dropshipping. Tham gia phân tích nghiệp vụ, thiết kế hệ thống và phát triển module. Công nghệ: Ruby on Rails, PostgreSQL, HTML/CSS/Javascript."
 
 [information]
-    enable = true
-
-    [[information.list]]
-    title = "Papers"
-    [[information.list.items]]
-    details = "2018 · Lorem Ipsum"
-    [[information.list.items]]
-    details = "2016 · Sed Fringilla"
-
-    [[information.list]]
-    title = "Interests"
-    details = "Climbing, Snowboarding, Photography, Travelling"
+    enable = false
 
 [social]
     enable = true
